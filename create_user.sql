@@ -39,4 +39,5 @@ grant create table   to &&user;
 grant create view    to &&user;
 grant create trigger to &&user;
 
+disconnect
 
