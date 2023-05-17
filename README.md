@@ -1,7 +1,7 @@
 # Referential Integrity
 ## Introduction
-The code in this repository is the accompanying material for the article   **Referential Integrity Beyond the Primary Key-Foreign Key Relationship**
-published on (to be added later on)
+The code in this repository is the accompanying material for the article   [**Referential Integrity Beyond the Primary Key-Foreign Key Relationship**](https://medium.com/@nuhad.shaabani/referential-integrity-beyond-primary-key-foreign-key-relationship-65c403669741)
+published on medium.
 
 The underlying database is the university database used as a running example in the book **Database System Concepts**. 
 The database is available at [https://www.db-book.com/db6/lab-dir/sample_tables-dir/index.html](https://www.db-book.com/db6/lab-dir/sample_tables-dir/index.html).
