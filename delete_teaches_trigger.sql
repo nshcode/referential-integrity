@@ -16,7 +16,7 @@ compound trigger
             end loop;
         end before statement;
     
-    -- Rollback the deletion if it is coused that at least one section has been left without a teaches record.
+    -- Rollback the deletion if it is caused that at least one section has been left without a teaches record.
     after statement is
         cursor lc_section_without_teaches is 
                 select course_id, sec_id, semester, year from section
@@ -54,7 +54,7 @@ compound trigger
                     ,lt_to_reinsert_teaches(i).year;
             end loop;
             raise_application_error(-20100, 
-            'Deletion rolled back baecuse it violated the referential integrity '
+            'Deletion rolled back because it violated the referential integrity '
                 || 'between section and teaches.');
         end if;
     end after statement;

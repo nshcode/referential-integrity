@@ -47,7 +47,7 @@ begin
                 l_err_msg varchar(255) := sqlerrm;
             begin    
                 dbms_output.put_line('A proplem occurs during ' || 
-                            'inserting into sectionn or teaches.');
+                            'inserting into section or teaches.');
                 dbms_output.put_line(l_err_msg);
                 raise;
             end;
